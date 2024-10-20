@@ -1,0 +1,52 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Timetable table styling */
+.timetable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.timetable th, .timetable td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.timetable th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.timetable td {
+    background-color: #fff;
+}
+
+.lunch-break {
+    background-color: #f8f8f8;
+    font-weight: bold;
+    text-align: center;
+}
+
+a.teacher-link {
+    text-decoration: none; 
+    color: #000; 
+    font-weight: bold;
+}
